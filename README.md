@@ -1,6 +1,6 @@
 # Scrapy
 
-Build the image and run a container from inside the src folder.
+Build the image and ran the container using a volume.
 
 ```bash
     docker build -t dockerImageName ./
