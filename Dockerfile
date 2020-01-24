@@ -2,7 +2,7 @@
 ARG python_version=3.6-slim
 FROM python:$python_version
 
-LABEL about="A scrapy development environment."
+LABEL about="A python development environment."
 LABEL maintainer="Andrei Alexandru Apetroaei"
 
 ENV work_dir /usr/src/data
