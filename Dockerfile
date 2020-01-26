@@ -5,7 +5,7 @@ FROM python:$python_version
 LABEL about="A python development environment."
 LABEL maintainer="Andrei Alexandru Apetroaei"
 
-ENV work_dir /usr/src/data
+ENV work_dir /usr/src
 ENV data_dir ./src
 
 WORKDIR $work_dir
