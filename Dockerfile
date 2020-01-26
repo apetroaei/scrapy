@@ -13,7 +13,9 @@ WORKDIR $work_dir
 COPY requirements.txt ./
 
 RUN pip install --no-cache-dir -r requirements.txt
+RUN useradd andi
 
+USER andi
 COPY $data_dir $word_dir
 
 CMD ["python"]
